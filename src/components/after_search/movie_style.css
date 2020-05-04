@@ -1,0 +1,50 @@
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.child{
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.error-data{
+    margin-top: 10px;
+    margin-left: 20%;
+    width: 60%;
+    margin-right: 20%;
+}
+.image-adjust{
+    height: 350px;
+    background-color: black;
+}
+.card-adjust{
+    height: 460px;
+    background-color: black;
+    border:white;
+    border-width: thick;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+}
+.modal-style{
+    background-color: rgba(0,0,0,.5);
+    color: snow;
+    border-color: transparent;
+}
+.modal-bg{
+    background-color: white;
+    color: black;
+}
+.button-card{
+    border: none;
+    background-color: black;
+}
+*:focus {
+    outline: 0 !important;
+}
+.spin-hide{
+    display: none;
+}
+.spin-show{
+    display: inline;
+}

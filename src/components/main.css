@@ -1,0 +1,44 @@
+@media only screen and (min-width: 500px) {
+    .search-head{
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .search-text{
+        min-width: 40%;
+    }
+    .search-year{
+        max-width: 20%;
+    }
+    .search-button{
+        background-color: darkslateblue;
+        border-radius: 5px;
+        border: none;
+        height: 45px;
+        width: 100px;
+        color: white;
+    }
+}
+@media only screen and (max-width: 499px) {
+    .search-head{
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
+    .search-drop{
+        margin-left: auto;
+    }
+    .search-text{
+        margin-right: auto;
+        min-width: 60%;
+        max-width: 30%;
+    }
+    .search-year{
+        margin-left: auto;
+        min-width: 30%;
+        max-width: 30%;
+    }
+    .search-type{
+        margin-right: auto;
+    }
+}

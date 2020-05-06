@@ -1,3 +1,24 @@
+.manage-info{
+    height: 250px;
+} 
+.title-movie{
+    font-size: x-large;
+    font-weight: bold;
+}
+.left-box{
+    float:left;  
+    width:25%; 
+    height:250px;
+}
+.right-box{
+    float:right;
+    width:45%; 
+    height:200px;
+}
+.set-image{
+    width:250px;
+    height: 250px;
+}
 .head{
     display: flex;
     flex-wrap: wrap;

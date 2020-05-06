@@ -18,6 +18,7 @@ class MovieModal extends React.Component{
         fetch('http://www.omdbapi.com/?apikey=70c951e5&i='+this.props.id)
         .then(resp=>resp.json())
         .then(res=>{
+            console.log(res)
             if(res.Poster!=='N/A'){
                 this.setState({
                     link_img:res.Poster

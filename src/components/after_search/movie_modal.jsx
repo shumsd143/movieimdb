@@ -15,7 +15,7 @@ class MovieModal extends React.Component{
         }
     }
     componentDidMount=()=>{
-        fetch('http://www.omdbapi.com/?apikey=70c951e5&i='+this.props.id)
+        fetch('https://www.omdbapi.com/?apikey=70c951e5&i='+this.props.id)
         .then(resp=>resp.json())
         .then(res=>{
             console.log(res)
